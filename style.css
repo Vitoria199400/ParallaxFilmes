@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(6, 10, 10);
+    font-family: sans-serif;
+    
+}
+
+
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: rgba(173, 164, 164, 0.3);
+
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+h1,h2{
+    font-weight: 900;
+    color: rgb(12, 12, 41);
+    
+}
+
+ h2{
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ }
+
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+    font-size: 10px;
+    
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    box-shadow: rgb(166, 24, 24);
+}
+
+section.module.content{
+    padding: 20px 0;
+    background: rgba(20, 23, 18, 0.6);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh  important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    }
+
+
+section.module.parallax:after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+}
+
+section.module.parallax-1{
+    background-image: url(/img/imagem2.jpg);
+}
+
+section.module.parallax-2{
+    background-image: url(img/imagem1.jpg);
+
+}
+
+section.module.parallax-3{
+    background-image: url(img/imagem5.jpg);
+}
+
+section.module.parallax h1{
+    color: rgb(96, 18, 18);
+    text-align: center;
+    font-size: 98px;
+    z-index: 50;
+}
+
+
+
+
